@@ -1,0 +1,28 @@
+
+URL :   https://web.njit.edu/~srb68/login.html
+
+
+
+
+
+TO TEST, THESE ARE HE FOLLOWING NAMES, PASSWORDS AND ETC..
+
+  { first: 'Sneh', last: 'Bhatt', password: '#Sb68', id: '1001', phone: normalizePhone('123-456-7890x123'), email: 'sneh.b@gmail.com' },
+ 
+  { first: 'Ben', last: 'Carson', password: '#B2c', id: '1002', phone: normalizePhone('234 567 8901x456'), email: 'ben.c@gmail.org' },
+ 
+  { first: 'Clara', last: 'Duke', password: '!C3d', id: '1003', phone: normalizePhone('345-678-9012x789'), email: 'clara.d@gmail.com' },
+ 
+  { first: 'David', last: 'Evan', password: '%D4e', id: '1004', phone: normalizePhone('456 789 0123x101'), email: 'david.e@gmail.com' },
+ 
+  { first: 'Eve', last: 'Foster', password: '$E5f', id: '1005', phone: normalizePhone('567-890-1234x111'), email: 'eve.f@gmail.com' },
+ 
+  { first: 'Frank', last: 'Gale', password: '&F6g', id: '1006', phone: normalizePhone('678-901-2345x121'), email: 'frank.g@gmail.com' },
+ 
+  { first: 'Grace', last: 'Hill', password: '*G7h', id: '1007', phone: normalizePhone('789-012-3456x131'), email: 'grace.h@gmail.com' },
+ 
+  { first: 'Hector', last: 'Ives', password: '^H8i', id: '1008', phone: normalizePhone('890-123-4567x141'), email: 'hector.I@gmail.com' },
+ 
+  { first: 'Isha', last: 'Jain', password: '!I9j', id: '1009', phone: normalizePhone('901-234-5678x151'), email: 'isha.j@gmail.com' },
+ 
+  { first: 'Joel', last: 'King', password: '~J0k', id: '1010', phone: normalizePhone('012-345-6789x161'), email: 'joel.k@gmail.com' }
