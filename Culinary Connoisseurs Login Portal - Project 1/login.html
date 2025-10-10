@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Culinary Connoisseurs Portal</title>
+  <link rel="stylesheet" href="theme.css" />
+</head>
+<body>
+  <div class="form-container">
+    <form id="ccForm" onsubmit="return handleSubmit(event)">
+      <h1>Culinary Connoisseurs</h1>
+
+      <div class="input-group">
+        <div class="label-line">
+          <label for="firstName">Caterer's First Name:</label>
+          <span class="required-text">REQUIRED</span>
+        </div>
+        <input type="text" id="firstName" name="firstName" placeholder="Example: John" />
+      </div>
+
+      <div class="input-group">
+        <div class="label-line">
+          <label for="lastName">Caterer's Last Name:</label>
+          <span class="required-text">REQUIRED</span>
+        </div>
+        <input type="text" id="lastName" name="lastName" placeholder="Example: Doe" />
+      </div>
+
+      <div class="input-group">
+        <div class="label-line">
+          <label for="password">Caterer's Password:</label>
+          <span class="required-text">REQUIRED</span>
+        </div>
+        <div style="display: flex; align-items: center;">
+          <input type="password" id="password" name="password" placeholder="Example: $CC@1" style="flex: 1;" />
+          <button type="button" id="pwdToggle" style="margin-left: 8px; cursor: pointer; border: none; background: none; font-size: 1.2rem;">👁</button>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <div class="label-line">
+          <label for="catererId">Caterer's ID #:</label>
+          <span class="required-text">REQUIRED</span>
+        </div>
+        <input type="text" id="catererId" name="catererId" placeholder="Example: 2468" />
+      </div>
+
+      <div class="input-group">
+        <div class="label-line">
+          <label for="phone">Caterer's Phone #:</label>
+          <span class="required-text">REQUIRED</span>
+        </div>
+        <input type="text" id="phone" name="phone" placeholder="Example: 555-555-5555 ext 555" />
+      </div>
+
+      <div class="input-group">
+        <label for="email">Caterer's Email:</label>
+        <input type="text" id="email" name="email" placeholder="Example: john@CC.com" />
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="emailConfirmation" name="emailConfirm" />
+        <label for="emailConfirmation">Check the box to request an Email Confirmation</label>
+      </div>
+
+      <div class="select-group">
+        <label for="transaction">Select a Transaction:</label>
+        <select id="transaction" name="transaction">
+          <option value="Search A Caterer's Accounts">Search A Caterer's Accounts</option>
+          <option value="Book A Client's Catering Event">Book A Client's Catering Event</option>
+          <option value="Cancel A Client's Catering Event">Cancel A Client's Catering Event</option>
+          <option value="Request AddOn Catering Services">Request AddOn Catering Services</option>
+          <option value="Update AddOn Catering Services">Update AddOn Catering Services</option>
+          <option value="Create A New Client Account">Create A New Client Account</option>
+        </select>
+      </div>
+
+      <div class="button-container">
+        <button type="submit">Submit</button>
+        <button type="reset" id="resetBtn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  
+  <script src="validator.js"></script>
+</body>
+</html>
